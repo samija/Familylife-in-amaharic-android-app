@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" 
+    android:background="@drawable/malebackground">
+
+    <ImageView
+        android:id="@+id/frag2_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+
+    <TextView
+        android:id="@+id/frag2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        />
+     <Button
+       
+        android:id="@+id/buttoncall"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="ይደውሉ"
+        android:textColor="#ffffff"
+        android:background="@drawable/realtransparent"
+        android:layout_marginTop="10dp"
+       
+       />
+     
+
+    <Button
+        android:id="@+id/buttonmessage"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="ሜሴጅ ይላኩ"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/buttoncall"
+        android:background="@drawable/realtransparent"
+         />
+
+    <Button
+        android:background="@drawable/realtransparent"
+        android:id="@+id/buttonemail"
+         android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="   ኢሜይል ይላኩ"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/buttonmessage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        
+     
+        />
+
+    <ImageView
+        android:id="@+id/callus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttoncall"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/donedone" />
+    <ImageView
+        android:id="@+id/sendsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonmessage"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/donemessage" />
+    <ImageView
+        android:id="@+id/sendemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonemail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/doneemail" />
+
+</RelativeLayout>

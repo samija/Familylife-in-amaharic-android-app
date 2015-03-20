@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.MainActivity" >
+     
+     <item
+        android:id="@+id/home"
+        android:title="@string/homeactionbar"
+        android:icon="@drawable/whitehome"
+        android:showAsAction="always"
+        />
+     <item 
+         android:id="@+id/arrow_one"
+         android:title="@string/twoarrow"
+         android:icon="@drawable/arrow_one"
+         android:showAsAction="always"/>
+
+
+</menu>

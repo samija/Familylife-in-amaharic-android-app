@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#f39ab9" >
+
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    
+    
+    <TextView
+        android:id="@+id/tabfsevenmiddle"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+       
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/tabfsevenmiddle"
+        android:textColor="#ffcc00"
+        android:textSize="20sp" 
+        android:background="@drawable/realtransparent"
+         android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView 
+        android:id="@+id/tabfsevendetails"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+       android:layout_below="@+id/tabfsevenmiddle"
+        android:layout_marginTop="15dp"
+       android:gravity="left"
+        android:layout_marginLeft="5dp"
+        android:text="@string/tabfsevendetails"
+        android:textColor="#ffffff"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/malebackground"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewteleeshtaol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/teleshtaol"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+       
+        android:id="@+id/buttoncall"
+        android:gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="ይደውሉ"
+        android:textColor="#ffffff"
+        android:background="@drawable/realtransparent"
+        
+        android:layout_below="@+id/textViewteleeshtaol"
+        android:layout_marginTop="5dp"
+       
+       
+       />
+
+    <ImageButton
+        android:id="@+id/imageButtonlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/buttoncall"
+        android:layout_below="@+id/textViewteleeshtaol"
+        android:background="@drawable/thelikebutton" />
+
+</RelativeLayout>

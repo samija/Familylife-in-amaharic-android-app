@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.MainActivity" >
+      <item
+         android:id="@+id/backarrow"
+         android:title="@string/backarrow"
+         android:icon="@drawable/backarrow"
+         android:showAsAction="always" />
+     <item
+        android:id="@+id/home"
+        android:title="@string/homeactionbar"
+        android:icon="@drawable/whitehome"
+        android:showAsAction="always"
+        />
+     <item 
+         android:id="@+id/arrow_five"
+         android:title="@string/twoarrow"
+         android:icon="@drawable/arrow_five"
+         android:showAsAction="always"/>
+         <item
+        android:id="@+id/teleshtaol"
+        android:title="ቴል ኤሽታኦል "
+        android:icon="@drawable/teleeshtaol"
+        android:showAsAction="never"/>
+<item android:id="@+id/aboutus"
+    android:title="ስለ እኛ"
+    android:icon="@drawable/newicon"
+    android:showAsAction="never"/>
+
+
+</menu>

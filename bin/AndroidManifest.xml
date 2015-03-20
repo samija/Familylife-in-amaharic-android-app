@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.family.life"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+     <uses-permission android:name="android.permission.SEND_SMS" />
+      <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+        <activity
+            android:name="com.familly.life.Splash"
+           android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.familly.life.MainActivity"
+            android:label="@string/mainactivityheader"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.familly.life.Tencommandments"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.TENCOMMANDMENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.familly.life.Male_commandments"
+            android:label="@string/maleactionbar"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.MALECOMMANDMENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.familly.life.Female_commandments"
+            android:label="@string/femaleactionbar"
+             android:theme="@style/CustomActionBarThemetwo"
+           android:screenOrientation="portrait"
+            
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.FEMALECOMMANDMENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.familly.life.Eshtaol"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:theme="@android:style/Theme.Dialog">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.familly.life.Aboutus"
+            android:screenOrientation="portrait"
+                        android:theme="@android:style/Theme.Dialog">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.familly.life.Mywebview"
+            
+            android:label="ሜሴጅ ይላኩ"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+         <activity
+            android:name="com.familly.life.Thesms"
+            android:label="ሜሴጅ ይላኩ"
+           android:screenOrientation="portrait"
+                         android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+         <activity
+            android:name="com.familly.life.Sendemail"
+            android:label="ኢሜይል ይላኩ"
+            android:screenOrientation="portrait"
+                         android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+        
+        <activity android:name="com.familly.life.Teleshtaol"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+            
+        </activity>
+         
+         
+         <activity
+            android:name="com.familly.life.Theemail"
+            android:screenOrientation="portrait"
+            android:label="@string/taboneheader"
+                         android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+      
+         <activity
+            android:name="com.familly.life.Tabone"
+            android:screenOrientation="portrait"
+            android:label="@string/taboneheader"
+                         android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+         <activity
+            android:name="com.familly.life.Tabtwo"
+            android:screenOrientation="portrait"
+            android:label="@string/tabtwoheader"
+                         android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+         
+        <activity
+            android:name="com.familly.life.Tabthree"
+            android:screenOrientation="portrait"
+            android:label="@string/tabthreeheader" 
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.TABONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.familly.life.Tabfour"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfourheader" 
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.TABONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name="com.familly.life.Tabfive"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfiveheader" 
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.TABONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="com.familly.life.Tabsix"
+            android:screenOrientation="portrait"
+            android:label="@string/tabsixheader" 
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.TABONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.familly.life.Tabseven"
+            android:label="@string/tabsevenheader" 
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+          <activity
+            android:name="com.familly.life.Tabeight"
+            android:label="@string/tabeightheader"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+           <activity
+            android:name="com.familly.life.Tabnine"
+            android:screenOrientation="portrait"
+            android:label="@string/tabnineheader"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+           <activity
+            android:name="com.familly.life.Tabten"
+            android:screenOrientation="portrait"
+            android:label="@string/tabtenheader" 
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+           
+           <activity
+            android:name="com.familly.life.Ftabone"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfoneheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+           <activity
+            android:name="com.familly.life.Ftabtwo"
+            android:screenOrientation="portrait"
+            android:label="@string/tabftwoheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+           
+            <activity
+            android:name="com.familly.life.Ftabthree"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfthreeheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+            <activity
+            android:name="com.familly.life.Ftabfour"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfourheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+             <activity
+            android:name="com.familly.life.Ftabfive"
+            android:screenOrientation="portrait"
+            android:label="@string/tabffiveheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+             <activity
+            android:name="com.familly.life.Ftabsix"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfsixheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+                <activity
+            android:name="com.familly.life.Ftabseven"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfsevenheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+                <activity
+            android:name="com.familly.life.Ftabeight"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfeightheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+                 <activity
+            android:name="com.familly.life.Ftabnine"
+            android:screenOrientation="portrait"
+            android:label="@string/tabfnineheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        
+                   <activity
+            android:name="com.familly.life.Ftabten"
+            android:screenOrientation="portrait"
+            android:label="@string/tabftenheader" 
+            android:theme="@style/CustomActionBarThemetwo"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+    </application>
+
+</manifest>
